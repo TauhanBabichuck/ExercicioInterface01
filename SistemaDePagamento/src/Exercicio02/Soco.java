@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemadepagamento;
+package Exercicio02;
 
 /**
  *
  * @author Escola
  */
-public class TransferenciaBancaria implements Pagamento{
+public class Soco implements Ataque{
 
     @Override
-    public void realizar(double valor) {
-        System.out.println("Pago com transferência bancária - " + valor);
+    public void executar() {
+        System.out.println("SOCO!!!");
     }
+    
     
 }

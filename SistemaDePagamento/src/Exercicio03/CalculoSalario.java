@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemadepagamento;
+package Exercicio03;
 
 /**
  *
  * @author Escola
  */
-public interface Pagamento {
-
-    void realizar(double valor);
-
+public interface CalculoSalario {
+    
+    void calcularSalario();
+    
 }

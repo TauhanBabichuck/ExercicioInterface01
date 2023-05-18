@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemadepagamento;
+package Exercicio01;
 
 /**
  *
  * @author Escola
  */
-public class Pix implements Pagamento{
+public interface Pagamento {
 
-    @Override
-    public void realizar(double valor) {
-        System.out.println("Pago com PIX - " + valor);
-    }
-    
+    void realizar(double valor);
+
 }

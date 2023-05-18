@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemadepagamento;
+package Exercicio02;
 
 /**
  *
  * @author Escola
  */
-public class CartaoDeCredito implements Pagamento{
+public class Especial implements Ataque{
 
     @Override
-    public void realizar(double valor) {
-        System.out.println("Pago com cartão de crédito - " + valor);
+    public void executar() {
+        System.out.println("ESPECIAL!");
     }
     
 }

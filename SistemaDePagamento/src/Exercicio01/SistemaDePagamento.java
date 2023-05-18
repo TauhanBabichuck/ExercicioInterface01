@@ -1,5 +1,5 @@
 
-package sistemadepagamento;
+package Exercicio01;
 
 
 public class SistemaDePagamento {
